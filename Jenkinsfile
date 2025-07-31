@@ -8,7 +8,7 @@ pipeline {
     }
 
     environment {
-        PEM_KEY_PATH = '/c/Program Files/Jenkins/keys/Jenkinsfile.pem'
+        PEM_KEY_PATH = 'C:/Users/Dell/Downloads/devops-assign-3.pem'
         EC2_USER = 'ubuntu'
         EC2_HOST = 'ec2-3-110-207-24.ap-south-1.compute.amazonaws.com'
         REPO_URL = 'https://github.com/Krish-Na203/devops-assign-3'
